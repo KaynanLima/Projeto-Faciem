@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial - Projeto Faciem</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- boxicons link -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- google fonts link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inclusive+Sans&family=Lato:wght@300;400&family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- header designer -->
+    <header>
+        <a href="#" class="logo"><img src="img/logo.png" alt="logo"></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="../SitePrincipal/index.html#info">Informações</a></li>
+            <li><a href="../SitePrincipal/index.html#sobre">Sobre nós</a></li>
+            <li><a href="../SitePrincipal/index.html#contato">Contato</a></li>
+        </ul>
+
+    </header>
+
+    <!-- home section -->
+    <section id="home" class="home">
+        <div class="home-text">
+            <h1>Projeto Faciem</h1>
+            <p>Página de Tutorial do Sistema</p>
+
+            <div class="arrow">
+                <a href="#tutorial"><i class="ri-arrow-down-s-line"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- tutorial section -->
+    <section class="tutorial">
+        <div id="tutorial"></div>
+
+        <!-- intro conteúdo -->
+        <div class="intro">
+            <p>Para uma melhor compreensão sobre o uso do nosso sistema, criamos um tutorial especial para você:</p>
+        </div>
+
+        <!-- texto1 conteúdo -->
+        <div id="texto1-img" class="texto1">
+            <div class="texto1-text">
+                <h2><i class='bx bx-chevrons-right'></i>Tela 1:</h2>
+                <p>Ao clicar no botão "Executar Reconhecimento Facial" você pode ativar sua principal função:
+                    reconhecer rostos de uma foto. Uma janela para você inserir uma foto será aberta. Após escolher a
+                    foto, o nome da pessoa da
+                    qual o sistema reconheceu será escrito abaixo do botão. Porém, atenção para algumas recomendações:
+                </p>
+                <ul>
+                    <li class="list">É bom que você coloque uma foto com apenas 1 rosto e com ênfase nelas.</li>
+                    <li class="list">Quanto mais limpo o ambiente e o fundo, melhor.</li>
+                    <li class="list">Algumas vezes, pode acontecer que, ao tentar refazer um reconhecimento, o sistema
+                        crashe. Nesses casos, apenas reabra o programa.</li>
+                </ul>
+            </div>
+
+            <div class="texto1-img">
+                <img src="img/nap1.png">
+                <h3>Tela inicial do projeto.</h3>
+            </div>
+        </div>
+
+        <div class="texto1-text2">
+            <p>No botão de Menu, no canto superior esquerdo, algumas funções poderão ser abertas, sendo a principal
+                delas a de "Adicionar Imagens",
+                consistindo em uma função de fazer update no sistema com novas imagens.</p>
+        </div>
+
+        <!-- texto2 conteúdo -->
+        <div id="texto2-img" class="texto2">
+            <div class="texto2-text">
+                <h2><i class='bx bx-chevrons-right'></i>Tela 2:</h2>
+                <p>Na tela de Update no Sistema, é possível escolher uma pessoa especifica para inserir novas imagens e
+                    treinar o sistema para reconhece-las
+                    melhor. Apenas clique no botão correspondente ao indivíduo escolhido e, na janela que se abrirá para
+                    inserir as imagens,
+                    insira uma ou mais imagens (é possível selecionar mais de uma imagem segurando shift + clique
+                    esquerdo do mouse). Após isso,
+                    clique em abrir e espere o programa carregar. Saiba que é normal que ele trave um pouco neste
+                    momento. Observações:</p>
+                <ul>
+                    <li class="list">É preferivel que a imagem escolhida para ser inserida, seja o mais quadrada
+                        possível, para garantir que ela não seja distorcida na hora do sistema redimensiona-la.</li>
+                    <li class="list">Procure que as imagens tenham sempre o rosto em destaque e evite muitas coisas no
+                        fundo, para garantir que a IA reconheça devidamente.</li>
+                </ul>
+            </div>
+
+            <div class="texto2-img">
+                <img src="img/nap2.png">
+                <h3>Tela de Update no Sistema.</h3>
+            </div>
+        </div>
+
+        <!-- texto3 conteúdo -->
+        <div class="texto3">
+            <div class="texto3-text">
+                <p>Visite a nossa página principal para obter mais informações sobre o nosso projeto!</p>
+                <a href="../SitePrincipal/index.html" class="texto3-btn">Acessar</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- perguntas section -->
+    <section class="perguntas">
+        <div id="perguntas"></div>
+
+            <div class="perguntas-text">
+                <h2>Perguntas Frequentes:</h2>
+                <h3 class="perg">Você</h3>
+                <p class="perg">Meu aplicativo reiniciou após adicionar novas imagens no sistema. Isso está correto?</p>
+                <h3 class="resp">Equipe Faciem</h3>
+                <p class="resp">Sim, o aplicativo é programado para reiniciar após isso, a fim de garantir que tudo seja aplicado corretamente.</p>
+
+                <h3 class="perg">Você</h3>
+                <p class="perg">Por que o reconhecimento facial anda errando um pouco e, mesmo adicionando mais imagens, ele tem apresentado dificuldade em reconhecer?</p>
+                <h3 class="resp">Equipe Faciem</h3>
+                <p class="resp">O Projeto Faciem ainda não é perfeito e apresenta falhas para lidar com situações da qual ele não foi treinado. Por isso, provavelmente seu problema está ocorrendo por ter adicionado imagens que possuam, por exemplo, muitos detalhes no fundo e pouca ênfase no rosto (situação da qual ele foi pouco treinado para lidar).</p>
+
+                <h3 class="perg">Você</h3>
+                <p class="perg">Adicionei uma foto errada, indexando na pessoa errada (e coisas similares). O que fazer?</p>
+                <h3 class="resp">Equipe Faciem</h3>
+                <p class="resp">Nesse tipo de situação, o aplicativo ainda não está treinado para lidar devidamente. Porém, há algumas formas de você mesmo lidar com isso. Primeiramente, feche o aplicativo para não causar interferências. Em seguida, abra a pasta lfw2, nos arquivos do aplicativo, escolhendo a pasta com o nome da pessoa que você acabou inserindo incorretamente. Salve as imagens corretas dessa pessoa em algum lugar e retire todas as fotos dessa pasta, a deixando vazia. Após isso, reabra o aplicativo, vá em adicionar imagens e adicione as imagens corretas na pasta da pessoa escolhida. Pronto! Após a atualização do aplicativo, o problema deve ter sido resolvido.</p>
+
+                <h3 class="perg">Você</h3>
+                <p class="perg">O Projeto Faciem tem como ser melhorado e desenvolvido ainda mais?</p>
+                <h3 class="resp">Equipe Faciem</h3>
+                <p class="resp">Sim! Inclusive, é um de seus principais objetivos. O sistema inteiro tem muito o que pode melhorar e o intuito é permitir cada vez mais que ele funcione devidamente para que, enfim, possa ser integrado com outras aplicações.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- contato section -->
+    <div id="contato"></div>
+
+    <section class="contato">
+        <div class="contato-box">
+            <h3>Contato</h3>
+            <a href="#"><i class='bx bxs-envelope'></i>ggs010102@gmail.com</a>
+            <a href="#"><i class='bx bxs-envelope'></i>helovargas550@gmail.com</a>
+            <a href="#"><i class='bx bxs-envelope'></i>kaynanldmatos@gmail.com</a>
+        </div>
+
+        <div class="contato-box">
+            <h3>Social</h3>
+            <div class="social">
+                <a href="https://www.instagram.com/theonly_gui/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><i class='ri-instagram-fill'></i></a>
+                <a href="https://api.whatsapp.com/send?phone=5519999216333" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+            </div>
+            <div class="social">
+                <a href="https://instagram.com/looh_vargas?igshid=NGVhN2U2NjQ0Yg==" target="_blank"><i class='ri-instagram-fill'></i></a>
+                <a href="https://api.whatsapp.com/send?phone=5519993073302" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+            </div>
+            <div class="social">
+                <a href="https://www.instagram.com/kaynanlima3/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==" target="_blank"><i class='ri-instagram-fill'></i></a>
+                <a href="https://api.whatsapp.com/send?phone=5519971040799" target="_blank"><i class='bx bxl-whatsapp'></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- copyright -->
+    <div class="copyright">
+        <p>Copyright 2023 By TCC's Group</p>
+    </div>
+
+    <!-- js link -->
+    <script src="../SitePrincipal/script.js"></script>
+</body>
+
+</html>
