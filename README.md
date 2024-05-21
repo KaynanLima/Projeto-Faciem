@@ -5,7 +5,9 @@ O Projeto Faciem foi um TCC (Trabalho de Conclusão de Curso) feito em uma ETEC 
 - Guilherme Gomes da Silva (Documento Escrito)
 <br>
 Apesar do Trabalho já ter sido "concluído" e apresentando, este continuará sendo aprimorado e desenvolvido, provavelmente, apenas por mim (Kaynan).<br><br>
-Desenvolvido para ser uma Inteligência Artificial de Reconhecimento Facial com uma interface agradável. Atualmente pode apenas reconhecer rosto em fotos com tamanhos específicos, fator do qual logo deve ser modificado.
+Desenvolvido para ser uma Inteligência Artificial de Reconhecimento Facial com uma interface agradável. Atualmente pode apenas reconhecer rosto em fotos com tamanhos específicos, fator do qual logo deve ser modificado.<br><br>
+
+Além do mais, é importante citar, por mais que não tenha sido usado até o fim, que utilizamos algumas imagens do banco de dados "Labeled Faces in the Wild", que nos foi muito útil durante o processo. Este pode ser encontrado no seguinte endereço: https://vis-www.cs.umass.edu/lfw/
 
 <br>
 
